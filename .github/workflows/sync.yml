@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Run LeetCode Sync
         uses: joshcai/leetcode-sync@v1.7
